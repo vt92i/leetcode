@@ -3,13 +3,8 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
-
-func main() {
-	fmt.Println(maximumBags([]int{10, 2, 2}, []int{2, 2, 0}, 100))
-}
 
 func maximumBags(capacity []int, rocks []int, additionalRocks int) int {
 	var diff []int
